@@ -1,0 +1,52 @@
+name: local_test
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  json_annotation: ^4.8.1
+  hive_flutter: ^1.1.0
+  intl: ^0.18.1
+  equatable: ^2.0.5
+  provider: ^6.0.5
+  flutter_bloc: ^8.1.3
+  fluttertoast: ^8.2.2
+  rxdart: ^0.27.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.3
+  json_serializable: ^6.7.1
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+
+flutter_native_splash:
+  color: "#6F4AFF"
+  android_12:
+    color: "#6F4AFF"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+
+  fonts:
+    - family: Schyler
+      fonts:
+        - asset: assets/fonts/Inter-Medium.ttf
